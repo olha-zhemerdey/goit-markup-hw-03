@@ -26,18 +26,15 @@ ul {
 
 .container {
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 32px;
-  margin-left: 156px;
-  margin-right: 156px;
-}
-.container-header {
-  border-bottom: 1px solid #e7e9fc;
-
-  max-width: 1158px;
+  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.container-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .navigation {
   display: flex;
   align-items: center;
