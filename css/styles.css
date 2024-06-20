@@ -23,6 +23,16 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+.container-header {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .container {
   max-width: 1158px;
   padding-left: 0;
@@ -36,8 +46,11 @@ ul {
 }
 .nav-list-container {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   justify-content: space-between;
+}
+.menu {
+  padding: 24px 0;
 }
 .header-line {
   border-bottom: 1px solid #e7e9fc;
@@ -50,6 +63,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .web {
   color: #2e2f42;
@@ -68,6 +82,11 @@ ul {
 .nav-list:focus {
   color: #404bbf;
 }
+.adress-list-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .address {
   font-style: normal;
 }
