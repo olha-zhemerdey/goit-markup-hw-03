@@ -218,7 +218,6 @@ background-color: #f4f4fd;
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
 }
 
 .footer-paragraph {
@@ -226,6 +225,7 @@ background-color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .web-footer {
   color: #f4f4fd;
@@ -240,4 +240,5 @@ background-color: #f4f4fd;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
