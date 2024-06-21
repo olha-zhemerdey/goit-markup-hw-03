@@ -26,6 +26,7 @@ ul {
 
 .container {
   max-width: 1158px;
+  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -95,14 +96,9 @@ ul {
   color: #404bbf;
 }
 
-.section-colour {
+.section-one {
   padding: 188px 0;
   background-color: #2e2f42;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .header-one {
@@ -183,6 +179,10 @@ background-color: #f4f4fd;
   background-color: #ffffff;
 }
 
+.section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .list-four {
   display: flex;
   column-gap: 24px;
