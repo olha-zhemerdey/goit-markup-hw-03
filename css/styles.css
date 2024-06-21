@@ -145,6 +145,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 .visually-hidden {
   position: absolute;
@@ -169,6 +170,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 8px;
+  text-align: center;
 }
 .list-three {
   display: flex;
