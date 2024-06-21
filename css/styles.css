@@ -40,10 +40,6 @@ ul {
   align-items: center;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .nav-list-container {
   display: flex;
   gap: 40px;
@@ -99,7 +95,9 @@ ul {
 .address-list:focus {
   color: #404bbf;
 }
+
 .section-one {
+  padding-top: 188px, 0;
   background-color: #2e2f42;
 }
 
@@ -110,6 +108,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .button-title {
@@ -120,6 +119,11 @@ ul {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button:hover {
