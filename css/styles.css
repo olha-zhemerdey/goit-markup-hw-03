@@ -26,7 +26,6 @@ ul {
 
 .container {
   max-width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -96,9 +95,14 @@ ul {
   color: #404bbf;
 }
 
-.section-one {
+.section-colour {
   padding: 188px 0;
   background-color: #2e2f42;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header-one {
@@ -162,9 +166,9 @@ ul {
 .name {
   text-align: center;
 }
-.section-three {
-  background-color: #f4f4fd;
-}
+
+background-color: #f4f4fd;
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -173,6 +177,7 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 .section-three-list {
   background-color: #ffffff;
@@ -180,14 +185,19 @@ ul {
 
 .list-four {
   display: flex;
-  gap: 24px;
-  justify-content: space-between;
+  column-gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
+}
+.list-four-element {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-border {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .footer {
   background-color: #2e2f42;
