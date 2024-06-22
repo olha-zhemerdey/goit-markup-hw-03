@@ -221,6 +221,7 @@ ul {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: none;
 }
 
 .footer-paragraph {
@@ -243,9 +244,4 @@ ul {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-}
-.container-footer {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
