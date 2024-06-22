@@ -24,14 +24,18 @@ ul {
   padding-left: 0;
 }
 
+.header-container {
+  display: flex;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
-.container header-container {
+.header-container {
   display: flex;
+  align-items: center;
 }
 
 .header {
