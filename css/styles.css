@@ -30,7 +30,7 @@ ul {
   padding: 0 15px;
 }
 
-.header-container {
+.container .header-container {
   display: flex;
 }
 
