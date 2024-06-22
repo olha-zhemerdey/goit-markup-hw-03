@@ -26,20 +26,24 @@ ul {
 
 .container {
   max-width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.container-header {
+.container .header-container {
+  display: flex;
+}
+header {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
+  display: flex;
   align-items: center;
 }
 
 .nav-list-container {
+  display: flex;
   gap: 40px;
   justify-content: space-between;
 }
@@ -73,6 +77,7 @@ ul {
   color: #404bbf;
 }
 .adress-list-menu {
+  display: flex;
   gap: 40px;
 }
 
@@ -132,6 +137,7 @@ ul {
 }
 
 .list-two {
+  display: flex;
   gap: 24px;
 }
 .header-three-title {
@@ -169,6 +175,7 @@ ul {
   text-align: center;
 }
 .list-three {
+  display: flex;
   gap: 24px;
 }
 .name {
@@ -200,6 +207,7 @@ ul {
   padding-bottom: 120px;
 }
 .list-four {
+  display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
